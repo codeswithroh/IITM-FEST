@@ -1,12 +1,12 @@
 import EventPage from "../EventPage";
-function Danza() {
+function Rhythm() {
   return (
     <div>
-      <EventPage title="Danza" image='danza.png'>
+      <EventPage title="Rhythm" image='Rhythm.png'>
         
     </EventPage>
     </div>
   );
 }
 
-export default Danza;
+export default Rhythm;
