@@ -2,9 +2,9 @@ import classes from './Event.module.css';
 import PosterBox from './PosterBox';
 function EventPage(props) {
     const customProps = {
-        height: props.height,
-        width: props.width,
-        objectFit: props.objectFit,
+        // height: props.height,
+        // width: props.width,
+        // objectFit: props.objectFit,
         image: props.image,
     }
     return (
