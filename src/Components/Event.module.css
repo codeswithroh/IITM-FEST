@@ -1,0 +1,21 @@
+.EventPage {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.EventPage .Left {
+    width: 50%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.EventPage .Right {
+    width: 50%;
+    height: 100%;
+    background-color: white;
+}
+.Right img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
