@@ -1,9 +1,18 @@
 import './App.css';
-import Events from './Components/Events';
+import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
+import Home from '../src/component/Home';
+import EventPage from './Components/EventPage';
 
 function App() {
   return (
-    <Events />
+    <div className="App">
+      <Router>
+        <Switch>
+          <Route path="/" component={Home} />
+          <Route path="/events/photography" component={EventPage} />
+        </Switch>
+      </Router>
+    </div>
   );
 }
 
