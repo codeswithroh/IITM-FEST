@@ -18,7 +18,7 @@
 .home-hero-logo {
     width: 25em;
     height: 25em;
-    background-image: url("../assets/homepage/logo.svg");
+    background-image: url('./nallamalalogo.png');
     background-size: cover;
     background-repeat: no-repeat;
     text-align: center  ;
