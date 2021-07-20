@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../styles/Home.css";
-import Team from "../assets/homepage/team.svg";
+// import Team from "../assets/homepage/team.svg";
 import Tilt from "react-tilt";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -28,7 +28,7 @@ export default function Home() {
           <div className='home-about-pic'>
             <Tilt className='Tilt' options={{ max: 25 }}>
               <div className='Tilt-inner'>
-                <img src={Team} alt=''></img>
+                <img src='../assets/homepage/team.svg' alt=''></img>
               </div>
             </Tilt>
           </div>
