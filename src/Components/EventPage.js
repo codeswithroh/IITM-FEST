@@ -1,11 +1,20 @@
 import classes from './Event.module.css';
-function EventPage() {
+import PosterBox from './PosterBox';
+function EventPage(props) {
+    const customProps = {
+        height: props.height,
+        width: props.width,
+        objectFit: props.objectFit,
+        image: props.image,
+    }
     return (
         <div className={classes.EventPage}>
             <div className={classes.Left}>
-            h1</div>
+                <h1>{props.title}</h1>
+                <ul>{props.children}</ul>
+            </div>
             <div className={classes.Right}>
-            <img src='../assets/images/photography.jpg' alt='Banner'></img>
+                <PosterBox {...customProps}></PosterBox>
             </div>
         </div>
     );

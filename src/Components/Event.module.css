@@ -1,21 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Subrayada&family=Roboto+Slab:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 .EventPage {
     height: 100vh;
     width: 100vw;
     display: flex;
+    overflow: hidden;
 }
 
 .EventPage .Left {
     width: 50%;
     height: 100%;
-    background-color: blueviolet;
+    float: left;
+    color: white;
+    text-align: left;
+    padding: 100px 0px 100px 40px;
+}
+.Left a {
+    text-decoration: none;
+    color: white;
+}
+.Left h1 {
+    font-family: 'Montserrat Subrayada', sans-serif;
+    font-size: 2.5em;
+}
+.Left li {
+    /* font-family: 'Montserrat Subrayada', sans-serif;
+    font-family: 'Roboto Slab', serif; */
+    font-family: 'Poppins', sans-serif;
 }
 .EventPage .Right {
     width: 50%;
     height: 100%;
-    background-color: white;
+    float: right;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.Right img {
-    height: 100%;
-    width: 100%;
+.Poster {
+    width: 450px;
+    height: 350px;
+}
+.Box {
+    position: absolute;
+    width: 450px;
+    height: 350px;
+    border: 5px solid white;
+}
+.Box1 {
+    width: 450px;
+    height: 350px;
+    position: absolute;
+    border: 5px solid white;
+    margin-top: 50px;
+    margin-left: 50px;
+}
+.Poster img {
+    position: absolute;
+    width: 450px;
+    height: 350px;
     object-fit: cover;
+    margin-top: 30px;
+    margin-left: 30px;
 }
