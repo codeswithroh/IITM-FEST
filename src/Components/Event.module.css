@@ -26,8 +26,6 @@
     font-size: 2.5em;
 }
 .Left li {
-    /* font-family: 'Montserrat Subrayada', sans-serif;
-    font-family: 'Roboto Slab', serif; */
     font-family: 'Poppins', sans-serif;
 }
 .EventPage .Right {
@@ -39,29 +37,90 @@
     justify-content: center;
     align-items: center;
 }
-.Poster {
-    width: 450px;
-    height: 350px;
-}
-.Box {
+.Poster,
+.Box,
+.Box1,
+.Poster img {
+    width: 400px;
+    height: 550px;
     position: absolute;
-    width: 450px;
-    height: 350px;
+}
+
+.Box {
     border: 5px solid white;
 }
 .Box1 {
-    width: 450px;
-    height: 350px;
-    position: absolute;
     border: 5px solid white;
     margin-top: 50px;
     margin-left: 50px;
 }
 .Poster img {
-    position: absolute;
-    width: 450px;
-    height: 350px;
     object-fit: cover;
     margin-top: 30px;
     margin-left: 30px;
+}
+
+/* Media Queries */
+@media (min-width: 1100px) and (max-width: 1200px) {
+    .Poster, .Box, .Box1, .Poster img {
+        width: 350px;
+        height: 500px;
+    }
+}
+
+@media (min-width: 900px) and (max-width: 1099px) {
+    .Poster, .Box, .Box1, .Poster img {
+        width: 300px;
+        height: 450px;
+        margin-right: 40px;
+    }
+    .Left li {
+        font-size: 0.9em;
+    }
+}
+
+@media (min-width: 700px) and (max-width: 899px) {
+    .Poster, .Box, .Box1, .Poster img {
+        width: 250px;
+        height: 400px;
+        margin-right: 40px;
+    }
+    .Left li {
+        font-size: 0.8em;
+    }
+    .EventPage .Left {
+        padding: 50px 0px 50px 20px;
+    }
+}
+
+@media (max-width: 699px) {
+    .EventPage {
+        display: initial;
+        overflow: none;
+        height: fit-content;
+        width: auto;
+    }
+    .EventPage .Left {
+        width: 90%;
+        padding: 50px;
+        overflow: hidden;
+        padding-bottom: 100px;
+    }
+    .EventPage .Right {
+        float: none;
+        width: 100%;
+        display: flex;
+        overflow: hidden;
+        align-items: none;
+        margin-top: 50px;
+        padding-bottom: 100px;
+    }
+    .Poster {
+        position: relative;
+    }
+    .Poster, .Box, .Box1, .Poster img {
+        width: 350px;
+        height: 500px;
+        margin-right: 40px;
+    }
 }
