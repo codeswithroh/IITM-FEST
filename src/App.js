@@ -1,8 +1,8 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Home from './Components/Home';
-import Artsy from './Components/Events/Artsy';
-import Danza from './Components/Events/Danza';
+import Home from './components/Home';
+import Artsy from './components/Events/Artsy';
+import Danza from './components/Events/Danza';
 
 function App() {
   return (
