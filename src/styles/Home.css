@@ -118,6 +118,9 @@
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.125);
 }
+button {
+    cursor: pointer;
+}
 .event-card-content > h1 {
     font-size:2.5rem;
 }
