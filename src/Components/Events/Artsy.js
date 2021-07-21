@@ -9,7 +9,7 @@ function Artsy() {
           <div className='homepage_logo'></div>
         </Link>
       </div>
-      <EventPage title='Artsy' image='artsy.png'>
+      <EventPage title='Artsy Lens' image='artsy.png'>
         <li>
           Photos for the competition will be taken up from 21-23(5PM) by a
           G-form- A poster will be released for the same
