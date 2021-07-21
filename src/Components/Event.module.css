@@ -124,3 +124,16 @@
         margin-right: 40px;
     }
 }
+@media screen and (max-width: 500px) {
+    .Poster, .Box, .Box1, .Poster img {
+        width: 200px;
+        height: 350px;
+        margin-right: 80px;
+    }
+    .EventPage .Left {
+        width: 70%;
+        padding: 50px;
+        overflow: hidden;
+        padding-bottom: 100px;
+    }
+}

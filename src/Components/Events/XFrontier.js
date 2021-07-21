@@ -37,7 +37,7 @@ function XFrontier() {
       <div className='button-container'>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
+            <a href='https://forms.gle/pt7EmRGS1zuiSUY79'>
               <span id='registration'>Register Now</span>
               <div className='liquid other-liquid'></div>
             </a>
@@ -45,7 +45,7 @@ function XFrontier() {
         </div>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
+            <a href='https://docs.google.com/presentation/d/1f-stzFwI4PbFQIZ4G8ja8TXdU3MKT66koJcIQM-tbf8/edit?usp=sharing'>
               <span id='registration'>More Info</span>
               <div className='liquid'></div>
             </a>

@@ -166,7 +166,7 @@ export default function Home() {
                     is your chance to learn everything to get started. Don't
                     miss it.
                   </p>
-                  <Link to='/'>
+                  <Link to='/github'>
                     <button className='btn'>Know More</button>
                   </Link>
                 </div>
@@ -200,7 +200,7 @@ export default function Home() {
                     adherents of NALLAMALA HOUSE coming up with GamesPalooza to
                     unleash your ultimate and bring on the buff of e-sports!!!
                   </p>
-                  <Link to='/'>
+                  <Link to='/esport'>
                     <button className='btn'>Know More</button>
                   </Link>
                 </div>

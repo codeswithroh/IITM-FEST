@@ -1,7 +1,7 @@
 import EventPage from "../EventPage";
 import "../../styles/Buttons.css";
 import { Link } from "react-router-dom";
-function MentalHealth() {
+function Esport() {
   return (
     <div>
       <div className='homepage-navigation'>
@@ -9,25 +9,20 @@ function MentalHealth() {
           <div className='homepage_logo'></div>
         </Link>
       </div>
-      <EventPage title='Stress and Health Management' image='mental.png'>
-        <li>Kindly maintain decorum of the event.</li>
+      <EventPage title='Esport' image='debate.png'>
         <br />
-        <li>Use of unparliamentary language is strictly forbidden.</li>
+        <li>No verbal abuse</li>
         <br />
-        <li>
-          Every participant will be given 2-3 minutes to share their views.
-        </li>
+        <li>No Copyright content </li>
         <br />
-        <li>
-          Please keep in mind not to bring political, religious and other
-          discriminatory discussions to the meeting.
-        </li>
+        <li>Participants must make/have an account before the event </li>
         <br />
+        <li>Betting is not allowed</li>
       </EventPage>
-      <div className='button-container'>
+      <div className='button-container-esport'>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://forms.gle/5VHPJZSBPbnj9wfK8'>
+            <a href='https://forms.gle/fkXzpgJu7SYYwMKv8'>
               <span id='registration'>Register Now</span>
               <div className='liquid other-liquid'></div>
             </a>
@@ -35,7 +30,7 @@ function MentalHealth() {
         </div>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://docs.google.com/document/d/1HfHGuhy57glgqCM_KTYufoN98LZcWtUnO3ODbwmsGUo/edit?usp=sharing'>
+            <a href='https://docs.google.com/document/d/1ylDSsYOewq7Bu0Wm6vYObW6BQ4PjnkGrm-QaoJLBHYM/edit?usp=sharing'>
               <span id='registration'>More Info</span>
               <div className='liquid'></div>
             </a>
@@ -46,4 +41,4 @@ function MentalHealth() {
   );
 }
 
-export default MentalHealth;
+export default Esport;
