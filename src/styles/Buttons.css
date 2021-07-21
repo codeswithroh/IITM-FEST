@@ -52,7 +52,7 @@
   }
 
   a .other-liquid {
-      background: orangered;
+      background: rgb(238, 10, 86);
   }
   
   a .liquid::after,

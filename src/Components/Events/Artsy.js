@@ -1,7 +1,6 @@
 import EventPage from "../EventPage";
 function Artsy() {
   return (
-    <div>
       <EventPage title='Artsy' image='artsy.png' date='24 July - 25 July' link='https://forms.gle/9TsmAG2Rp5dbBroZA'>
         <li>
           Photos for the competition will be taken up from 20-23(5PM) by a
@@ -29,7 +28,6 @@ function Artsy() {
         <li>The best photo will be uploaded on the Nallamlal House website.</li>
         <br />
       </EventPage>
-      </div>
   );
 }
 

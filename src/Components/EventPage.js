@@ -22,6 +22,14 @@ function EventPage(props) {
                     </a>
                     </div>
                 </div>
+                <div className='registration-buttons'>
+                <div className='register'>
+                    <a href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
+                    <span id='registration'>More Info</span>
+                    <div className='liquid'></div>
+                    </a>
+                </div>
+                </div>
             </div>
         </div>
     );
