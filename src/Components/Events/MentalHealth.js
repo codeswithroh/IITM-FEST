@@ -9,15 +9,26 @@ function MentalHealth() {
           <div className='homepage_logo'></div>
         </Link>
       </div>
-      <EventPage title="Stress and Health Management" image='MentalHeatlth.png'>
-        
-    </EventPage>
-    <div class='registration-buttons'>
-        <div class='register'>
-          <a href='https://forms.gle/5VHPJZSBPbnj9wfK8'>
-            <span id='registration'>Register Now</span>
-            <div class='liquid'></div>
-          </a>
+      <EventPage
+        title='Stress and Health Management'
+        image='MentalHeatlth.png'
+      ></EventPage>
+      <div className='button-container'>
+        <div className='registration-buttons'>
+          <div className='register'>
+            <a href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
+              <span id='registration'>Register Now</span>
+              <div className='liquid other-liquid'></div>
+            </a>
+          </div>
+        </div>
+        <div className='registration-buttons'>
+          <div className='register'>
+            <a href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
+              <span id='registration'>More Info</span>
+              <div className='liquid'></div>
+            </a>
+          </div>
         </div>
       </div>
     </div>

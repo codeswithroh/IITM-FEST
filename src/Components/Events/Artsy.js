@@ -48,7 +48,7 @@ function Artsy() {
           <div className='register'>
             <a href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
               <span id='registration'>Register Now</span>
-              <div className='liquid'></div>
+              <div className='liquid other-liquid'></div>
             </a>
           </div>
         </div>
