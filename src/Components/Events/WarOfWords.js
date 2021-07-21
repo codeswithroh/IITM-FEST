@@ -35,7 +35,7 @@ function WarOfWords() {
       <div className='button-container'>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://forms.gle/fbGKNMySUyQ1xRSL8'>
+            <a rel="noreferrer" target="_blank" href='https://forms.gle/fbGKNMySUyQ1xRSL8'>
               <span id='registration'>Register Now</span>
               <div className='liquid other-liquid'></div>
             </a>
@@ -43,7 +43,7 @@ function WarOfWords() {
         </div>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://docs.google.com/document/d/15gcMFjdDrVEGNDwD32z5HmX3fBqk5P7yNVcr2NnfQpo/edit?usp=sharing'>
+            <a rel="noreferrer" target="_blank" href='https://docs.google.com/document/d/15gcMFjdDrVEGNDwD32z5HmX3fBqk5P7yNVcr2NnfQpo/edit?usp=sharing'>
               <span id='registration'>More Info</span>
               <div className='liquid'></div>
             </a>

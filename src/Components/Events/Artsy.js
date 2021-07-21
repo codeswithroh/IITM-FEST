@@ -46,7 +46,7 @@ function Artsy() {
       <div className="button-container-artsy">
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
+            <a rel="noreferrer" target="_blank" href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
               <span id='registration'>Register Now</span>
               <div className='liquid other-liquid'></div>
             </a>
@@ -54,7 +54,7 @@ function Artsy() {
         </div>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://docs.google.com/document/d/1LbJxbouSu89kGVSxCHprOflCRmdQSve4wtRKnajqCy8/edit?usp=sharing'>
+            <a rel="noreferrer" target="_blank" href='https://docs.google.com/document/d/1LbJxbouSu89kGVSxCHprOflCRmdQSve4wtRKnajqCy8/edit?usp=sharing'>
               <span id='registration'>More Info</span>
               <div className='liquid'></div>
             </a>

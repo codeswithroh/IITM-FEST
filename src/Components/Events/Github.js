@@ -33,7 +33,7 @@ function Github() {
       <div className='button-container-github'>
         <div className='registration-buttons github'>
           <div className='register'>
-            <a href='https://docs.google.com/document/d/1lI2zhpN-MQFpqW0CyO0_WDonnwoJQxBUx9UCsNkmgQg/edit'>
+            <a rel="noreferrer" target="_blank" href='https://docs.google.com/document/d/1lI2zhpN-MQFpqW0CyO0_WDonnwoJQxBUx9UCsNkmgQg/edit'>
               <span id='registration'>More Info</span>
               <div className='liquid other-liquid'></div>
             </a>

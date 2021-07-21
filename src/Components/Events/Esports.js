@@ -22,7 +22,7 @@ function Esport() {
       <div className='button-container-esport'>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://forms.gle/fkXzpgJu7SYYwMKv8'>
+            <a rel="noreferrer" target="_blank" href='https://forms.gle/fkXzpgJu7SYYwMKv8'>
               <span id='registration'>Register Now</span>
               <div className='liquid other-liquid'></div>
             </a>
@@ -30,7 +30,7 @@ function Esport() {
         </div>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://docs.google.com/document/d/1ylDSsYOewq7Bu0Wm6vYObW6BQ4PjnkGrm-QaoJLBHYM/edit?usp=sharing'>
+            <a rel="noreferrer" target="_blank" href='https://docs.google.com/document/d/1ylDSsYOewq7Bu0Wm6vYObW6BQ4PjnkGrm-QaoJLBHYM/edit?usp=sharing'>
               <span id='registration'>More Info</span>
               <div className='liquid'></div>
             </a>

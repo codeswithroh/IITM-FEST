@@ -33,7 +33,7 @@ function Danza() {
       <div className='button-container'>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://forms.gle/qSpZCyCcnNvs4xe46'>
+            <a rel="noreferrer" target="_blank" href='https://forms.gle/qSpZCyCcnNvs4xe46'>
               <span id='registration'>Register Now</span>
               <div className='liquid other-liquid'></div>
             </a>
@@ -41,7 +41,7 @@ function Danza() {
         </div>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://docs.google.com/document/d/1lvsmnS8b1aZTSnMA0palR8geH3ZSKgXlCl5_BXC3iuc/edit?usp=sharing'>
+            <a rel="noreferrer" target="_blank" href='https://docs.google.com/document/d/1lvsmnS8b1aZTSnMA0palR8geH3ZSKgXlCl5_BXC3iuc/edit?usp=sharing'>
               <span id='registration'>More Info</span>
               <div className='liquid'></div>
             </a>

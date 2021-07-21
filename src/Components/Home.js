@@ -76,7 +76,7 @@ export default function Home() {
                   <p>
                     Close your eyes, Forget your Name, Forget everything else in
                     this world and Just go Insane🥳 Join the Musical event
-                    Rthymn to explore new tunes.
+                    rhythm to explore new tunes.
                   </p>
                   <Link to='/rhythm'>
                     <button className='btn'>Know More</button>
@@ -130,7 +130,7 @@ export default function Home() {
                     Depression is a flaw in chemistry not a character. If you
                     are going through any stress or anxiety pressure or want a
                     booster then get connected to the talk-show as "To be
-                    haelthy as a whole ,mental wellness plays a role"
+                    healthy as a whole ,mental wellness plays a role"
                   </p>
                   <Link to='/mental-health'>
                     <button className='btn'>Know More</button>

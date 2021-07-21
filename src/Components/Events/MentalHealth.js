@@ -27,7 +27,7 @@ function MentalHealth() {
       <div className='button-container'>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://forms.gle/5VHPJZSBPbnj9wfK8'>
+            <a rel="noreferrer" target="_blank" href='https://forms.gle/5VHPJZSBPbnj9wfK8'>
               <span id='registration'>Register Now</span>
               <div className='liquid other-liquid'></div>
             </a>
@@ -35,7 +35,7 @@ function MentalHealth() {
         </div>
         <div className='registration-buttons'>
           <div className='register'>
-            <a href='https://docs.google.com/document/d/1HfHGuhy57glgqCM_KTYufoN98LZcWtUnO3ODbwmsGUo/edit?usp=sharing'>
+            <a rel="noreferrer" target="_blank" href='https://docs.google.com/document/d/1HfHGuhy57glgqCM_KTYufoN98LZcWtUnO3ODbwmsGUo/edit?usp=sharing'>
               <span id='registration'>More Info</span>
               <div className='liquid'></div>
             </a>
