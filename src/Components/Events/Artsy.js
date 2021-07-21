@@ -1,8 +1,14 @@
 import EventPage from "../EventPage";
+import { Link } from "react-router-dom";
 import "../../styles/Buttons.css";
 function Artsy() {
   return (
     <div>
+      <div className='homepage-navigation'>
+        <Link to='/'>
+          <div className='homepage_logo'></div>
+        </Link>
+      </div>
       <EventPage title='Artsy' image='artsy.png'>
         <li>
           Photos for the competition will be taken up from 20-23(5PM) by a
@@ -39,7 +45,7 @@ function Artsy() {
       </EventPage>
       <div class='registration-buttons'>
         <div class='register'>
-          <a href='https://dare2compete.com/f/envisage-2021-techno-main-salt-lake-6356'>
+          <a href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
             <span id='registration'>Register Now</span>
             <div class='liquid'></div>
           </a>

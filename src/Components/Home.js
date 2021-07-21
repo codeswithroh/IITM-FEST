@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "../styles/Home.css";
-// import Team from "../assets/homepage/team.svg";
+import { Link } from "react-router-dom";
 import Tilt from "react-tilt";
 import Aos from "aos";
 import "aos/dist/aos.css";
@@ -28,7 +28,11 @@ export default function Home() {
           <div className='home-about-pic'>
             <Tilt className='Tilt' options={{ max: 25 }}>
               <div className='Tilt-inner'>
-                <img data-aos="zoom-in-up" src='../assets/homepage/team.svg' alt=''></img>
+                <img
+                  data-aos='zoom-in-up'
+                  src='../assets/homepage/team.svg'
+                  alt=''
+                ></img>
               </div>
             </Tilt>
           </div>
@@ -74,7 +78,9 @@ export default function Home() {
                     this world and Just go Insane🥳 Join the Musical event
                     Rthymn to explore new tunes.
                   </p>
-                  <button>Know More</button>
+                  <Link to='/rhythm'>
+                    <button className='btn'>Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -88,12 +94,12 @@ export default function Home() {
                     Debate, a gladiatorial combat of the intellect. Welcome to
                     battle of words with a motive; Small minds discuss people,
                     average minds discuss events, great minds discuss ideas .
-                    Incubate your idea and see if it conquers the
-                    world. 
+                    Incubate your idea and see if it conquers the world.
                   </p>
-                  <p>PS: If you can't convince them,
-                    confuse them ;)</p>
-                  <button>Know More</button>
+                  <p>PS: If you can't convince them, confuse them ;)</p>
+                  <Link to='/warofwords'>
+                    <button className='btn'>Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -108,7 +114,9 @@ export default function Home() {
                     prove your skills. What are you waiting for? Just register
                     and let the coding begin.{" "}
                   </p>
-                  <button>Know More</button>
+                  <Link to='/xfrontier'>
+                    <button className='btn'>Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -124,7 +132,9 @@ export default function Home() {
                     booster then get connected to the talk-show as "To be
                     haelthy as a whole ,mental wellness plays a role"
                   </p>
-                  <button>Know More</button>
+                  <Link to='/mental-health'>
+                    <button className='btn'>Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -139,7 +149,9 @@ export default function Home() {
                     photography is about. So let's create a statement without
                     uttering a word with your artsy lens📸📷
                   </p>
-                  <button>Know More</button>
+                  <Link to='/artsy'>
+                    <button className='btn'>Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -154,7 +166,9 @@ export default function Home() {
                     is your chance to learn everything to get started. Don't
                     miss it.
                   </p>
-                  <button>Know More</button>
+                  <Link to='/'>
+                    <button className='btn'>Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -169,7 +183,9 @@ export default function Home() {
                     down from the rafters. Dust off your leg warmers and tease
                     up your hair, cheer up with DANZA FESTAL!!!
                   </p>
-                  <button>Know More</button>
+                  <Link to='/danza'>
+                    <button className='btn'>Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -179,8 +195,14 @@ export default function Home() {
               <div data-aos='zoom-in-left' className='event-card'>
                 <div className='event-card-content'>
                   <h1>Gamespalooza</h1>
-                  <p>Event Details</p>
-                  <button>Know More</button>
+                  <p>
+                    "Winners never surrender" making this phrase true ,we the
+                    adherents of NALLAMALA HOUSE coming up with GamesPalooza to
+                    unleash your ultimate and bring on the buff of e-sports!!!
+                  </p>
+                  <Link to='/'>
+                    <button className='btn'>Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>

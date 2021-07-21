@@ -148,7 +148,7 @@ button {
     font-size: 1.5rem;
     max-width: 20em;
 }
-.event-card-content > button {
+.btn {
     font-size: 1.3rem;
     border-radius: 10px;
     padding:0.5em 1em;
