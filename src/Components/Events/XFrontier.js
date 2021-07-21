@@ -5,36 +5,21 @@ function XFrontier() {
     <div>
       <EventPage title='XFrontier' image='xfrontier.png'>
         <li>
-          Photos for the competition will be taken up from 20-23(5PM) by a
-          G-form- A poster will be released for the same
+            A drive link will be mailed to the participants containing a zip folder on July 24 at 10 a.m.
         </li>
         <br />
         <li>
-          Only the entries from the people belonging to Nallamala House will be
-          accepted Theme:General (any photo)
+        The folder will consist of a basic UI in the form of png and a short video to represent the animations of the website
+
         </li>
         <br />
         <li>
-          The best photo will be selected by a poll conducted using G-forms on
-          24 and 25th – A poster will be released to attract the members of the
-          house to vote.
+        The participants will be given two days to replicate the given UI and add their touches to it.
         </li>
         <br />
-        <li>
-          Only people belonging to Nallamala House can take part in the poll and
-          the polling will be open only on 24 and 25
-        </li>
+        <li>On July 25, at 5 p.m. we will mail a google form where the participants will have to share their github repo link and also the link of the site they have hosted (although hosting is optional)</li>
         <br />
-        <li>Each photo will be given a mark of 5,10 or 15</li>
-        <br />
-        <li>
-          A sample poll is{" "}
-          <a href='https://docs.google.com/forms/d/e/1FAIpQLSd3F_iok2ygOmF7YXYK8IfcQxwewgP5EiiAW8ORRA0UDxrI1w/viewform'>
-            Here
-          </a>
-        </li>
-        <br />
-        <li>The best photo will be uploaded on the Nallamlal House website.</li>
+        <li>The participants can follow any techstack they want</li>
         <br />
       </EventPage>
       <div class='registration-buttons'>
