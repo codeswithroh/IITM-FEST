@@ -9,7 +9,7 @@ function Esport() {
           <div className='homepage_logo'></div>
         </Link>
       </div>
-      <EventPage title='Esport' image='debate.png'>
+      <EventPage title='Esport' image='game.jpeg'>
         <br />
         <li>No verbal abuse</li>
         <br />
