@@ -1,6 +1,7 @@
 import classes from './Event.module.css'
 import Aos from 'aos';
 import { useEffect } from 'react';
+
 function PosterBox(props) {
     useEffect(() => {
         Aos.init({duration:2000});

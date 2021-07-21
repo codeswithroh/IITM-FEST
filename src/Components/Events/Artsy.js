@@ -1,17 +1,16 @@
 import EventPage from "../EventPage";
-import "../../styles/Buttons.css";
 function Artsy() {
   return (
     <div>
-      <EventPage title='Artsy' image='artsy.png'>
+      <EventPage title='Artsy' image='artsy.png' date='24 July - 25 July' link='https://forms.gle/9TsmAG2Rp5dbBroZA'>
         <li>
           Photos for the competition will be taken up from 20-23(5PM) by a
-          G-form- A poster will be released for the same
+          G-form- A poster will be released for the same.
         </li>
         <br />
         <li>
           Only the entries from the people belonging to Nallamala House will be
-          accepted Theme:General (any photo)
+          accepted Theme:General (any photo).
         </li>
         <br />
         <li>
@@ -22,30 +21,15 @@ function Artsy() {
         <br />
         <li>
           Only people belonging to Nallamala House can take part in the poll and
-          the polling will be open only on 24 and 25
+          the polling will be open only on 24 and 25.
         </li>
         <br />
-        <li>Each photo will be given a mark of 5,10 or 15</li>
-        <br />
-        <li>
-          A sample poll is{" "}
-          <a href='https://docs.google.com/forms/d/e/1FAIpQLSd3F_iok2ygOmF7YXYK8IfcQxwewgP5EiiAW8ORRA0UDxrI1w/viewform'>
-            Here
-          </a>
-        </li>
+        <li>Each photo will be given a mark of 5,10 or 15.</li>
         <br />
         <li>The best photo will be uploaded on the Nallamlal House website.</li>
         <br />
       </EventPage>
-      <div class='registration-buttons'>
-        <div class='register'>
-          <a href='https://dare2compete.com/f/envisage-2021-techno-main-salt-lake-6356'>
-            <span id='registration'>Register Now</span>
-            <div class='liquid'></div>
-          </a>
-        </div>
       </div>
-    </div>
   );
 }
 

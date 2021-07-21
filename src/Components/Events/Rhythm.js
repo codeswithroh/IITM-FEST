@@ -1,20 +1,9 @@
 import EventPage from "../EventPage";
-import "../../styles/Buttons.css";
 function Rhythm() {
   return (
-    <div>
-      <EventPage title="Rhythm" image='Rhythm.png'>
-        
+    <EventPage title="Rhythm" image='Rhythm.png' date='24 July - 25 July' link='https://forms.gle/1VmBR89M2XpgxyT2A'>
+    
     </EventPage>
-    <div class='registration-buttons'>
-        <div class='register'>
-          <a href='https://dare2compete.com/f/envisage-2021-techno-main-salt-lake-6356'>
-            <span id='registration'>Register Now</span>
-            <div class='liquid'></div>
-          </a>
-        </div>
-      </div>
-    </div>
   );
 }
 

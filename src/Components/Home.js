@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import "../styles/Home.css";
-// import Team from "../assets/homepage/team.svg";
 import Tilt from "react-tilt";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from 'react-router-dom';
 export default function Home() {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -74,7 +74,7 @@ export default function Home() {
                     this world and Just go Insane🥳 Join the Musical event
                     Rthymn to explore new tunes.
                   </p>
-                  <button>Know More</button>
+                  <button><Link to='/rhythm'>Know More</Link></button>
                 </div>
               </div>
             </div>
@@ -93,7 +93,7 @@ export default function Home() {
                   </p>
                   <p>PS: If you can't convince them,
                     confuse them ;)</p>
-                  <button>Know More</button>
+                    <button><Link to='/warofwords'>Know More</Link></button>
                 </div>
               </div>
             </div>
@@ -108,7 +108,7 @@ export default function Home() {
                     prove your skills. What are you waiting for? Just register
                     and let the coding begin.{" "}
                   </p>
-                  <button>Know More</button>
+                  <button><Link to='/xfrontier'>Know More</Link></button>
                 </div>
               </div>
             </div>
@@ -124,7 +124,7 @@ export default function Home() {
                     booster then get connected to the talk-show as "To be
                     haelthy as a whole ,mental wellness plays a role"
                   </p>
-                  <button>Know More</button>
+                  <button><Link to='/mental-health'>Know More</Link></button>
                 </div>
               </div>
             </div>
@@ -139,7 +139,7 @@ export default function Home() {
                     photography is about. So let's create a statement without
                     uttering a word with your artsy lens📸📷
                   </p>
-                  <button>Know More</button>
+                  <button><Link to='/artsy'>Know More</Link></button>
                 </div>
               </div>
             </div>
@@ -154,7 +154,7 @@ export default function Home() {
                     is your chance to learn everything to get started. Don't
                     miss it.
                   </p>
-                  <button>Know More</button>
+                  <button><Link to='/git-workshop'>Know More</Link></button>
                 </div>
               </div>
             </div>
@@ -169,7 +169,7 @@ export default function Home() {
                     down from the rafters. Dust off your leg warmers and tease
                     up your hair, cheer up with DANZA FESTAL!!!
                   </p>
-                  <button>Know More</button>
+                  <button><Link to='/danza'>Know More</Link></button>
                 </div>
               </div>
             </div>
@@ -180,7 +180,7 @@ export default function Home() {
                 <div className='event-card-content'>
                   <h1>Gamespalooza</h1>
                   <p>Event Details</p>
-                  <button>Know More</button>
+                  <button><Link to='/gamespalooza'>Know More</Link></button>
                 </div>
               </div>
             </div>

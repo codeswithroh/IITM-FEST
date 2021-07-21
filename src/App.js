@@ -1,12 +1,13 @@
 import './App.css';
 import {BrowserRouter as Router, Switch, Route} from 'react-router-dom';
-import Home from '../src/Components/Home';
-import Artsy from '../src/Components/Events/Artsy';
-import Danza from '../src/Components/Events/Danza';
-import MentalHealth from '../src/Components/Events/MentalHealth';
-import Rhythm from '../src/Components/Events/Rhythm';
-import WarOfWords from '../src/Components/Events/WarOfWords';
-import XFrontier from '../src/Components/Events/XFrontier';
+import Home from './components/Home';
+import Artsy from './components/Events/Artsy';
+import Danza from './components/Events/Danza';
+import MentalHealth from './components/Events/MentalHealth';
+import Rhythm from './components/Events/Rhythm';
+import WarOfWords from './components/Events/WarOfWords';
+import XFrontier from './components/Events/XFrontier';
+import GitWorkshop from './components/Events/GitWorkshop';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/rhythm" exact component={Rhythm} />
           <Route path="/warofwords" exact component={WarOfWords} />
           <Route path="/xfrontier" exact component={XFrontier} />
+          <Route path="/git-workshop" exact component={GitWorkshop} />
         </Switch>
       </Router>
     </div>
