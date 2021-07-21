@@ -1,9 +1,13 @@
+.button-container {
+  display: flex;
+  gap:2em;
+  position: absolute;
+  bottom:2em;
+  left:4em;
+}
 .registration-buttons {
     display: flex;
     gap:2em;
-    position: absolute;
-    bottom:2em;
-    left:4em;
 }
 
 .register {

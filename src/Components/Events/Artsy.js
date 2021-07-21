@@ -43,12 +43,22 @@ function Artsy() {
         <li>The best photo will be uploaded on the Nallamlal House website.</li>
         <br />
       </EventPage>
-      <div class='registration-buttons'>
-        <div class='register'>
-          <a href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
-            <span id='registration'>Register Now</span>
-            <div class='liquid'></div>
-          </a>
+      <div className="button-container">
+        <div className='registration-buttons'>
+          <div className='register'>
+            <a href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
+              <span id='registration'>Register Now</span>
+              <div className='liquid'></div>
+            </a>
+          </div>
+        </div>
+        <div className='registration-buttons'>
+          <div className='register'>
+            <a href='https://forms.gle/9TsmAG2Rp5dbBroZA'>
+              <span id='registration'>More Info</span>
+              <div className='liquid'></div>
+            </a>
+          </div>
         </div>
       </div>
     </div>
