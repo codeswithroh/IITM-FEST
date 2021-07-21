@@ -11,7 +11,7 @@ function Artsy() {
       </div>
       <EventPage title='Artsy' image='artsy.png'>
         <li>
-          Photos for the competition will be taken up from 20-23(5PM) by a
+          Photos for the competition will be taken up from 21-23(5PM) by a
           G-form- A poster will be released for the same
         </li>
         <br />
