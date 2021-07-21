@@ -1,3 +1,10 @@
+.button-container {
+  display: flex;
+  gap:2em;
+  position: absolute;
+  bottom:2em;
+  left:4em;
+}
 .registration-buttons {
   position: relative;
     display: flex;
@@ -76,6 +83,18 @@
   
   a:hover .liquid{
     top: -120px;
+  }
+  .homepage-navigation {
+    position: absolute;
+    top: 1em;
+    left: 1em;
+  }
+  .homepage_logo {
+    width: 3em;
+    height: 3em;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./nallamalalogo.png');
   }
   
   @keyframes animate {

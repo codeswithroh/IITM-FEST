@@ -28,7 +28,11 @@ export default function Home() {
           <div className='home-about-pic'>
             <Tilt className='Tilt' options={{ max: 25 }}>
               <div className='Tilt-inner'>
-                <img data-aos="zoom-in-up" src='../assets/homepage/team.svg' alt=''></img>
+                <img
+                  data-aos='zoom-in-up'
+                  src='../assets/homepage/team.svg'
+                  alt=''
+                ></img>
               </div>
             </Tilt>
           </div>
@@ -88,8 +92,7 @@ export default function Home() {
                     Debate, a gladiatorial combat of the intellect. Welcome to
                     battle of words with a motive; Small minds discuss people,
                     average minds discuss events, great minds discuss ideas .
-                    Incubate your idea and see if it conquers the
-                    world. 
+                    Incubate your idea and see if it conquers the world.
                   </p>
                   <p>PS: If you can't convince them,
                     confuse them ;)</p>
