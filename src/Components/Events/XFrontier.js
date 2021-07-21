@@ -1,9 +1,9 @@
 import EventPage from "../EventPage";
 import "../../styles/Buttons.css";
-function Artsy() {
+function XFrontier() {
   return (
     <div>
-      <EventPage title='Artsy' image='artsy.png'>
+      <EventPage title='XFrontier' image='xfrontier.png'>
         <li>
           Photos for the competition will be taken up from 20-23(5PM) by a
           G-form- A poster will be released for the same
@@ -49,4 +49,4 @@ function Artsy() {
   );
 }
 
-export default Artsy;
+export default XFrontier;

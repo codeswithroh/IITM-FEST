@@ -5,9 +5,9 @@ import Tilt from "react-tilt";
 import Aos from "aos";
 import "aos/dist/aos.css";
 export default function Home() {
-    useEffect(() => {
-        Aos.init({duration: 1000});
-    });
+  useEffect(() => {
+    Aos.init({ duration: 2000 });
+  });
   return (
     <div className='home'>
       <div className='home-hero'>
@@ -23,18 +23,16 @@ export default function Home() {
         </div>
       </div>
       <div className='home-about'>
-        <h1>About ANVESHANA</h1>
+        {/* <h1>About ANVESHANA</h1> */}
         <div className='home-about-content'>
           <div className='home-about-pic'>
             <Tilt className='Tilt' options={{ max: 25 }}>
               <div className='Tilt-inner'>
-                <img src='../assets/homepage/team.svg' alt=''></img>
+                <img data-aos="zoom-in-up" src='../assets/homepage/team.svg' alt=''></img>
               </div>
             </Tilt>
           </div>
-          <div
-            className='home-about-text'
-          >
+          <div className='home-about-text'>
             <p data-aos='fade-down'>
               Welcome to the Nallamala fest site ANVESHANA, a journey of self
               discovery.
@@ -68,7 +66,7 @@ export default function Home() {
         <div className='event-card-container'>
           <Tilt className='Tilt' options={{ max: 25 }}>
             <div className='Tilt-inner'>
-              <div data-aos='fade-right' className='event-card'>
+              <div data-aos='zoom-in-right' className='event-card'>
                 <div className='event-card-content'>
                   <h1>Rhythm</h1>
                   <p>
@@ -83,10 +81,18 @@ export default function Home() {
           </Tilt>
           <Tilt className='Tilt' options={{ max: 25 }}>
             <div className='Tilt-inner'>
-              <div data-aos='fade-left' className='event-card'>
+              <div data-aos='zoom-in-left' className='event-card'>
                 <div className='event-card-content'>
                   <h1>War Of Words</h1>
-                  <p>Event Details</p>
+                  <p>
+                    Debate, a gladiatorial combat of the intellect. Welcome to
+                    battle of words with a motive; Small minds discuss people,
+                    average minds discuss events, great minds discuss ideas .
+                    Incubate your idea and see if it conquers the
+                    world. 
+                  </p>
+                  <p>PS: If you can't convince them,
+                    confuse them ;)</p>
                   <button>Know More</button>
                 </div>
               </div>
@@ -94,7 +100,7 @@ export default function Home() {
           </Tilt>
           <Tilt className='Tilt' options={{ max: 25 }}>
             <div className='Tilt-inner'>
-              <div data-aos='fade-right' className='event-card'>
+              <div data-aos='zoom-in-right' className='event-card'>
                 <div className='event-card-content'>
                   <h1>X-Frontier</h1>
                   <p>
@@ -109,10 +115,15 @@ export default function Home() {
           </Tilt>
           <Tilt className='Tilt' options={{ max: 25 }}>
             <div className='Tilt-inner'>
-              <div data-aos='fade-left' className='event-card'>
+              <div data-aos='zoom-in-left' className='event-card'>
                 <div className='event-card-content'>
                   <h1>Mental Health- A Talk</h1>
-                  <p>Event Details</p>
+                  <p>
+                    Depression is a flaw in chemistry not a character. If you
+                    are going through any stress or anxiety pressure or want a
+                    booster then get connected to the talk-show as "To be
+                    haelthy as a whole ,mental wellness plays a role"
+                  </p>
                   <button>Know More</button>
                 </div>
               </div>
@@ -120,7 +131,7 @@ export default function Home() {
           </Tilt>
           <Tilt className='Tilt' options={{ max: 25 }}>
             <div className='Tilt-inner'>
-              <div data-aos='fade-right' className='event-card'>
+              <div data-aos='zoom-in-right' className='event-card'>
                 <div className='event-card-content'>
                   <h1>Artsy Lens</h1>
                   <p>
@@ -135,7 +146,7 @@ export default function Home() {
           </Tilt>
           <Tilt className='Tilt' options={{ max: 25 }}>
             <div className='Tilt-inner'>
-              <div data-aos='fade-left' className='event-card'>
+              <div data-aos='zoom-in-left' className='event-card'>
                 <div className='event-card-content'>
                   <h1>Workshop On Git and GitHub</h1>
                   <p>
@@ -150,7 +161,7 @@ export default function Home() {
           </Tilt>
           <Tilt className='Tilt' options={{ max: 25 }}>
             <div className='Tilt-inner'>
-              <div data-aos='fade-right' className='event-card'>
+              <div data-aos='zoom-in-right' className='event-card'>
                 <div className='event-card-content'>
                   <h1>Danza Festal</h1>
                   <p>
@@ -165,12 +176,10 @@ export default function Home() {
           </Tilt>
           <Tilt className='Tilt' options={{ max: 25 }}>
             <div className='Tilt-inner'>
-              <div data-aos='fade-left' className='event-card'>
+              <div data-aos='zoom-in-left' className='event-card'>
                 <div className='event-card-content'>
                   <h1>Gamespalooza</h1>
-                  <p>
-                    Event Details
-                  </p>
+                  <p>Event Details</p>
                   <button>Know More</button>
                 </div>
               </div>
