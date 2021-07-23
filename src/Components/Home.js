@@ -6,7 +6,7 @@ import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 export default function Home() {
   useEffect(() => {
-    Aos.init({ duration: 2000 });
+    Aos.init({ duration: 3000 });
   });
   return (
     <div className='home'>
@@ -76,7 +76,7 @@ export default function Home() {
                   <p>
                     Close your eyes, Forget your Name, Forget everything else in
                     this world and Just go Insane🥳 Join the Musical event
-                    Rthymn to explore new tunes.
+                    rhythm to explore new tunes.
                   </p>
                   <button><Link to='/rhythm'>Know More</Link></button>
                 </div>
@@ -125,7 +125,7 @@ export default function Home() {
                     Depression is a flaw in chemistry not a character. If you
                     are going through any stress or anxiety pressure or want a
                     booster then get connected to the talk-show as "To be
-                    haelthy as a whole ,mental wellness plays a role"
+                    healthy as a whole ,mental wellness plays a role"
                   </p>
                   <button><Link to='/mental-health'>Know More</Link></button>
                 </div>
@@ -157,7 +157,9 @@ export default function Home() {
                     is your chance to learn everything to get started. Don't
                     miss it.
                   </p>
-                  <button><Link to='/git-workshop'>Know More</Link></button>
+                  <Link to='/github'>
+                    <button className='btn'>Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -182,8 +184,14 @@ export default function Home() {
               <div data-aos='zoom-in-left' className='event-card'>
                 <div className='event-card-content'>
                   <h1>Gamespalooza</h1>
-                  <p>Event Details</p>
-                  <button><Link to='/gamespalooza'>Know More</Link></button>
+                  <p>
+                    "Winners never surrender" making this phrase true ,we the
+                    adherents of NALLAMALA HOUSE coming up with GamesPalooza to
+                    unleash your ultimate and bring on the buff of e-sports!!!
+                  </p>
+                  <Link to='/esport'>
+                    <button className='btn'>Know More</button>
+                  </Link>
                 </div>
               </div>
             </div>

@@ -5,6 +5,26 @@
   bottom:2em;
   left:4em;
 }
+.button-container-artsy {
+  display: flex;
+  gap:2em;
+  position: absolute;
+  bottom:2em;
+  left:4em;
+}
+.button-container-esport {
+  display: flex;
+  gap:2em;
+  position: absolute;
+  bottom:2em;
+  left:4em;
+}
+.button-container-github {
+  position: absolute;
+  bottom:2em;
+  left:4em;
+}
+
 .registration-buttons {
   position: relative;
     display: flex;
@@ -103,5 +123,71 @@
     }
     100% {
       transform: translate(-50%, -75%) rotate(360deg);
+    }
+  }
+  @media screen and (max-width: 500px) and (max-height:690px)  {
+    .button-container {
+      flex-direction: column;
+      bottom:-60em;
+      margin-bottom: 4em;
+    }
+    .button-container-artsy {
+      flex-direction: column;
+      bottom:-74em;
+      margin-bottom: 4em;
+    }
+    .button-container-esport {
+      flex-direction: column;
+      bottom:-40em;
+      margin-bottom: 4em;
+    }
+    .button-container-github {
+      position: absolute;
+      bottom:-35em;
+      left:4em;
+    }
+    .github {
+      margin-bottom:2em;
+    }
+    .registration-buttons:nth-child(2){
+      margin-bottom:2em;
+    }
+    .button-container {
+      gap:0em;
+    }
+  }
+  @media screen and (max-width: 500px) and (min-height:700px)  {
+    .button-container {
+      flex-direction: column;
+      bottom:-50em;
+      margin-bottom: 4em;
+      margin-left: 2em;
+    }
+    .button-container-artsy {
+      flex-direction: column;
+      bottom:-70em;
+      margin-bottom: 4em;
+      margin-left: 2em;
+    }
+    .button-container-esport {
+      flex-direction: column;
+      bottom:-30em;
+      margin-left:2em;
+      margin-bottom: 4em;
+    }
+    .button-container-github {
+      position: absolute;
+      bottom:-35em;
+      left:4em;
+      margin-left:2em;
+    }
+    .github {
+      margin-bottom:2em;
+    }
+    .registration-buttons:nth-child(2){
+      margin-bottom:2em;
+    }
+    .button-container {
+      gap:0em;
     }
   }
