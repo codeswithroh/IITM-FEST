@@ -1,6 +1,13 @@
 import "../../styles/Flutter.css";
 import "../../styles/Buttons.css";
+import { useEffect } from "react";
 export default function Flutter() {
+    useEffect(() => {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth"
+        });
+    })
   return (
     <div className='flutter'>
       <h1>Flutter Rush</h1>
