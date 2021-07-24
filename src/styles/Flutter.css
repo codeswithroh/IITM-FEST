@@ -3,6 +3,7 @@
     display: grid;
     place-items: center;
     position: relative;
+    background: linear-gradient(70.59deg, #0F898F 0%, #2B2525 100%);
 }
 .flutter > h1 {
     font-size: 3rem;
