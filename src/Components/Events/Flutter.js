@@ -50,7 +50,7 @@ export default function Flutter() {
         <div className='registration-buttons'>
           <div className='register'>
             <a rel="noreferrer" target="_blank" href='https://docs.google.com/document/d/1hXxJWu3iWMIGfC7v33rgArYqWebz2XlK7O3Y86TgzB0/edit?usp=sharing'>
-              <span id='registration'>More Info</span>
+              <span id='registration'>Rules & Regulations</span>
               <div className='liquid'></div>
             </a>
           </div>
