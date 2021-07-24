@@ -5,6 +5,16 @@
   bottom:2em;
   left:4em;
 }
+.button-container-flutter {
+  display: flex;
+  gap:6em;
+  margin-bottom: 6em;
+}
+@media screen and (max-width: 600px) {
+  .button-container-flutter {
+    flex-direction: column;
+  }
+}
 .button-container-artsy {
   display: flex;
   gap:2em;

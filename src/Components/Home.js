@@ -72,6 +72,25 @@ export default function Home() {
             <div className='Tilt-inner'>
               <div data-aos='zoom-in-right' className='event-card'>
                 <div className='event-card-content'>
+                  <h1>Flutter Rush</h1>
+                  <p>
+                    NALLAMALA HOUSE is proud to announce the First Ever Cash
+                    Prize Event in the IIT Madras BSc Degree Program. as part of
+                    our Seasonal 2 Day Fest :- ANVESHANA . We present to you our
+                    Flutter coding competition " Flutter Rush ". Learn, Code and
+                    Connect.
+                  </p>
+                  <Link to='/flutter'>
+                    <button className='btn'>Know More</button>
+                  </Link>
+                </div>
+              </div>
+            </div>
+          </Tilt>
+          <Tilt className='Tilt' options={{ max: 25 }}>
+            <div className='Tilt-inner'>
+              <div data-aos='zoom-in-right' className='event-card'>
+                <div className='event-card-content'>
                   <h1>Rhythm</h1>
                   <p>
                     Close your eyes, Forget your Name, Forget everything else in

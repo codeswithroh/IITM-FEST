@@ -9,6 +9,7 @@ import WarOfWords from '../src/Components/Events/WarOfWords';
 import XFrontier from '../src/Components/Events/XFrontier';
 import Esport from '../src/Components/Events/Esports';
 import GitHub from '../src/Components/Events/Github';
+import Flutter from '../src/Components/Events/Flutter';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/xfrontier"  component={XFrontier} />
           <Route path="/github"  component={GitHub} />
           <Route path="/esport"  component={Esport} />
+          <Route path="/flutter"  component={Flutter} />
         </Switch>
       </Router>
     </div>
