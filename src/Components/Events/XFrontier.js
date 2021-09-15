@@ -4,12 +4,12 @@ import { Link } from "react-router-dom";
 function XFrontier() {
   return (
     <div>
-      <div className='homepage-navigation'>
-        <Link to='/'>
-          <div className='homepage_logo'></div>
+      <div className="homepage-navigation">
+        <Link to="/">
+          <div className="homepage_logo"></div>
         </Link>
       </div>
-      <EventPage title='XFrontier' image='xfrontier.png'>
+      <EventPage title="XFrontier" image="xfrontier.png">
         <li>
           A drive link will be mailed to the participants containing a zip
           folder on July 24 at 10 a.m.
@@ -34,20 +34,33 @@ function XFrontier() {
         <li>The participants can follow any techstack they want</li>
         <br />
       </EventPage>
-      <div className='button-container'>
-        <div className='registration-buttons'>
-          <div className='register'>
-            <a rel="noreferrer" target="_blank" href='https://forms.gle/pt7EmRGS1zuiSUY79'>
-              <span id='registration'>Register Now</span>
-              <div className='liquid other-liquid'></div>
-            </a>
+      <div className="button-container">
+        <div className="registration-buttons">
+          <div className="register">
+            <Link to="/xfrontier/winners">
+              <span
+                style={{
+                  fontWeight: "bold",
+                  fontFamily: "Exo",
+                  letterSpacing: "0.1em",
+                }}
+                id="registration"
+              >
+                Winners
+              </span>
+              <div className="liquid other-liquid"></div>
+            </Link>
           </div>
         </div>
-        <div className='registration-buttons'>
-          <div className='register'>
-            <a rel="noreferrer" target="_blank" href='https://docs.google.com/presentation/d/1f-stzFwI4PbFQIZ4G8ja8TXdU3MKT66koJcIQM-tbf8/edit?usp=sharing'>
-              <span id='registration'>More Info</span>
-              <div className='liquid'></div>
+        <div className="registration-buttons">
+          <div className="register">
+            <a
+              rel="noreferrer"
+              target="_blank"
+              href="https://docs.google.com/presentation/d/1f-stzFwI4PbFQIZ4G8ja8TXdU3MKT66koJcIQM-tbf8/edit?usp=sharing"
+            >
+              <span id="registration">More Info</span>
+              <div className="liquid"></div>
             </a>
           </div>
         </div>

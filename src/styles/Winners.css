@@ -1,0 +1,56 @@
+.winner-container {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.x-frontier {
+  background: linear-gradient(180deg, #c0a264 0%, #000000 100%);
+}
+.winner-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  left: 0;
+  right: 0;
+  position: absolute;
+  top: 0em;
+  color: white;
+}
+.winner-card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  gap: 10em;
+  flex-wrap: wrap;
+}
+.winner-card {
+  background: linear-gradient(
+      135.37deg,
+      rgba(0, 0, 0, 0.4) 4.29%,
+      rgba(255, 255, 255, 0.4) 95.6%
+    ),
+    #eaecf0;
+  background-blend-mode: soft-light, normal;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  box-shadow: -9px -9px 16px rgba(250, 251, 255, 0.2),
+    9px 9px 16px rgba(0, 0, 0, 0.2);
+  border-radius: 20px;
+  transform: rotate(-6.19deg);
+  width: 17em;
+  height: 18em;
+  margin-bottom: 2em;
+  transition: 0.5s;
+}
+.winner-card:hover {
+  transform: rotate(-6.19deg);
+  transform: scale(1.1);
+}
+@media screen and (max-width: 700px) {
+  .event-winner {
+    margin: 10em 0 0 2em;
+  }
+}
