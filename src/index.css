@@ -16,3 +16,10 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.event-btn {
+  @apply bg-black p-4 rounded-3xl mt-4 hover:bg-white hover:text-black transition duration-500 font-bold;
+}

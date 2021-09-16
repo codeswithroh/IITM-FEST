@@ -1,4 +1,5 @@
 import "./App.css";
+import "./index.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Home from "../src/Components/Home";
 import Artsy from "../src/Components/Events/Artsy";
@@ -11,6 +12,7 @@ import Esport from "../src/Components/Events/Esports";
 import GitHub from "../src/Components/Events/Github";
 import Flutter from "../src/Components/Events/Flutter";
 import XFrontierWin from "./Components/Event-Winners/XFrontierWin";
+import EsportWin from "./Components/Event-Winners/EsportWin";
 
 function App() {
   return (
@@ -28,6 +30,7 @@ function App() {
           <Route path="/esport" exact component={Esport} />
           <Route path="/flutter" exact component={Flutter} />
           <Route path="/xfrontier/winners" component={XFrontierWin} />
+          <Route path="/gamespalooza/winners" component={EsportWin} />
         </Switch>
       </Router>
     </div>

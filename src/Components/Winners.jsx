@@ -33,7 +33,7 @@ export default function Winners(props) {
         }}
       />
       <div className="winner-content">
-        <div className="winner-heading">
+        <div className="winner-heading mt-4 font-bold">
           <img src={Winner} alt="winner" />
           <h1
             style={{
@@ -63,7 +63,7 @@ export default function Winners(props) {
         <div className="winner-card-container">
           {numbers.map((number) => {
             return (
-              <div key={number} className="winner-card">
+              <div key={number} className="winner-card px-4">
                 <img
                   style={{
                     width: "5em",
@@ -74,7 +74,7 @@ export default function Winners(props) {
                   }}
                   src={pics[number - 1]}
                   alt=""
-                  className="winner-pic"
+                  className="winner-pic m-auto"
                 />
                 <div
                   style={{
