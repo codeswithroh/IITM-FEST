@@ -20,6 +20,11 @@ export default function SampleWinner() {
 
   const artsylensnames = ["Arul Gilbert", "Arun P", "Harsh Narendra Patil"];
   const artsylenspictures = [pic1, pic2, pic3];
+  const artsylensphotos = [
+    "https://drive.google.com/file/d/1V_pRNhlgqu7g8s00Z21jOoqnlC1GwU-9/view",
+    "https://drive.google.com/file/d/16jd4LhIC74w7tzHxdXzQ-8rOxy6XUaYZ/view",
+    "https://drive.google.com/file/d/1m-MGF8gWDaj14N2YAqAFt792lnqUfhBK/view",
+  ];
 
   return (
     <div className="winner-container x-frontier min-h-screen">
@@ -130,13 +135,13 @@ export default function SampleWinner() {
           </h2>
         </div>
         {/* artsylens winner cards */}
-        <div className="flex flex-col md:flex-row md:w-full justify-around items-center mt-5">
+        <div className="flex flex-col md:flex-row md:w-full justify-around items-center mt-5 absolute z-40">
           {/* artsylens cards */}
           {artsylensnames.map((name, index) => {
             return (
               <div
                 key={index}
-                className="bg-white rounded-lg sample-winner-card my-8 w-60 h-60 md:h-80 md:w-80"
+                className="bg-white rounded-lg sample-winner-card my-8 w-60 h-70 md:h-80 md:w-80"
               >
                 <img
                   className="md:w-40 md:h-40 w-24 h-24 rounded-full mx-auto object-cover pt-4"
@@ -150,6 +155,14 @@ export default function SampleWinner() {
                 <h3 className="font-medium text-2xl mb-3 md:text-3xl">
                   {name}
                 </h3>
+                <a
+                  className="cursor-pointer"
+                  href={artsylensphotos[index]}
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <i className="fas fa-camera fa-2x mb-2"></i>
+                </a>
               </div>
             );
           })}
