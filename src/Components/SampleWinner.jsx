@@ -28,27 +28,29 @@ export default function SampleWinner() {
 
   return (
     <div className="winner-container x-frontier min-h-screen">
-      <Particles
-        style={{ position: "absolute", inset: "0" }}
-        params={{
-          particles: {
-            number: {
-              value: 50,
-            },
-            size: {
-              value: 3,
-            },
-          },
-          interactivity: {
-            events: {
-              onhover: {
-                enable: true,
-                mode: "repulse",
+      <div className="hidden md:block">
+        <Particles
+          style={{ position: "absolute", inset: "0" }}
+          params={{
+            particles: {
+              number: {
+                value: 50,
+              },
+              size: {
+                value: 3,
               },
             },
-          },
-        }}
-      />
+            interactivity: {
+              events: {
+                onhover: {
+                  enable: true,
+                  mode: "repulse",
+                },
+              },
+            },
+          }}
+        />
+      </div>
       {/* top heading */}
       <div className="absolute top-4 flex justify-center items-center">
         <div>
@@ -114,7 +116,7 @@ export default function SampleWinner() {
       </div>
 
       {/* artsy lens event heading */}
-      <div className="min-h-screen w-full text-center">
+      <div className="min-h-screen w-full text-center mx-auto">
         <div className="text-left text-white mr-auto w-full ml-8">
           <p
             style={{
@@ -135,7 +137,7 @@ export default function SampleWinner() {
           </h2>
         </div>
         {/* artsylens winner cards */}
-        <div className="flex flex-col md:flex-row md:w-full justify-around items-center mt-5 absolute z-40">
+        <div className="flex flex-col md:flex-row md:w-full justify-around items-center mt-5 z-40 md:absolute">
           {/* artsylens cards */}
           {artsylensnames.map((name, index) => {
             return (
