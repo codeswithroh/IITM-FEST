@@ -26,6 +26,13 @@
   gap: 10em;
   flex-wrap: wrap;
 }
+.sample-winner-card {
+  background-blend-mode: soft-light, normal;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-sizing: border-box;
+  box-shadow: -9px -9px 16px rgba(250, 251, 255, 0.2),
+    9px 9px 16px rgba(0, 0, 0, 0.2);
+}
 .winner-card {
   background: linear-gradient(
       135.37deg,

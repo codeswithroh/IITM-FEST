@@ -13,6 +13,9 @@ import GitHub from "../src/Components/Events/Github";
 import Flutter from "../src/Components/Events/Flutter";
 import XFrontierWin from "./Components/Event-Winners/XFrontierWin";
 import EsportWin from "./Components/Event-Winners/EsportWin";
+import ArtsyLensWin from "./Components/Event-Winners/ArtsyLensWin";
+import WinnerInfo from "./Components/Winner-Info";
+import SampleWinner from "./Components/SampleWinner";
 
 function App() {
   return (
@@ -31,6 +34,9 @@ function App() {
           <Route path="/flutter" exact component={Flutter} />
           <Route path="/xfrontier/winners" component={XFrontierWin} />
           <Route path="/gamespalooza/winners" component={EsportWin} />
+          <Route path="/artsylens/winners" component={ArtsyLensWin} />
+          <Route path="/eventinfo" component={WinnerInfo} />
+          <Route path="/winners" component={SampleWinner} />
         </Switch>
       </Router>
     </div>
