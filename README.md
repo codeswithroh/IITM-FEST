@@ -1,3 +1,3 @@
 # ANVESHANA
-## A fest presented by IITM Nallamala House
-## Checkout our site at- https://anveshana-nallamala.in/
+A fest presented by Nallamala House one of the official houses under IITM. This site is all about its fun and exiciting nature. 
+> Checkout our site at- https://anveshana-nallamala.in/
